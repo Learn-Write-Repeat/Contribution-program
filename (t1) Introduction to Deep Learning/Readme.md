@@ -1,4 +1,6 @@
-||Sub Topic	|Contributor Name|	Status|
+## Introduction to Deep Learning
+
+||Sub Topic	|	Status|
 |-|-|-|-|		
 |1.| What is deep learning||
 |2.|Architectures||
@@ -7,4 +9,4 @@
 |5.| Tool and languages used||
 |6.| Limitations||
 |7.| Merits and Demerits||
-|8.| Applications"||	K.Mounica	
+|8.| Applications"||	
