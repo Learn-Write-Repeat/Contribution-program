@@ -4,7 +4,7 @@
 
 ||Sub Topic	|	Status|
 |-|-|-|	
-|1.| What is deep learning|to be started|
+|1.| What is deep learning|To be started|
 |2.|Architectures||
 |3.| Working||
 |4.| Flow chart||
