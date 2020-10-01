@@ -26,6 +26,6 @@ Repository for competition in open-source contribution under DevIncept.
 
 
 ### Resources to start
-1. [Introduction to markdown](Markdown.md)
-2. [Introduction to jupyter Notebook](Trivedh_Jupyter_Tutorial.md)
-3. [How to create a Pull Request](Create_Pull_Request.md)
+1. [Introduction to markdown](https://github.com/Learn-Write-Repeat/Open-contributions/blob/master/Markdown.md)
+2. [Introduction to jupyter Notebook](https://github.com/Learn-Write-Repeat/Open-contributions/blob/master/Trivedh_Jupyter_Tutorial.md)
+3. [How to create a Pull Request](https://github.com/Learn-Write-Repeat/Open-contributions/blob/master/Create_Pull_Request.md)
