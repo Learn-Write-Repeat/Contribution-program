@@ -8,3 +8,5 @@
 | **3)Deferred initialization:**<br>a)weight initialization in back propagation<br>b)activation function initialization:<br>i)sigmoid ii)relu iii)linear iv)softmax | Ashish Kumar Panda                                 |        |
 | **4)Custom Layers:**<br>a)Input layer<br>b)hidden layers<br>c)output layer                                                                                        | Geya Gandharva Kanakamedala                        |        |
 | **5) File I/O and GPU's**<br><br>                                                                                                                                 | Google Colab and GPU version RTX Ti<br>to be used. |
+
+#### Mentor:Kumari Neha
