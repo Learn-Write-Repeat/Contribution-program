@@ -6,3 +6,5 @@
 | 3) KNN Algorithm<br>4) KMeans Algorithm                              | Shravan Ganji  |  |
 | 5) Naive Bayes<br>6) Decision Trees<br>7) Random Forest              | Dibyasha Panda |  |
 | 8) Linear and Logistic Regression                                    | Mansi Jaiswal  |
+
+#### Mentor:Kumari Neha
