@@ -8,3 +8,6 @@
 | 3) Hybrid System<br>a. Both collaborative and content based                                                       | Sushant Kumar          |  |
 | 4) Metric Based Evaluation                                                                                           | Honey Darji            |  |
 | 5) Human Based Evaluation                                                                                            | Sushant Kumar<br>Rashmi Ranjan Mangaraj       |
+
+
+#### Mentor: Divyankar Bhargav
