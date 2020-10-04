@@ -61,7 +61,7 @@ Here, the input is 5 x 5(N x N) size and filter is 3 x 3(F x F) size so feature 
 
 ## Sequential Block
 A neural network block is described as a single layer, a component which consists of multiple layers, or the entire model itself.
-Thus, a sequential block is a block which allows to build sequential model that holds linear stack of layers in the order in which they should be executed. Sequential allows to build predictive models layer by layer either by passing a list of layers to sequential constructor or by using the add() method. However, sequential does not allow to create models which share layers and have multiple inputs and outputs.
+Thus, a sequential block is a block which allows to build model that holds linear stack of layers in the order in which they should be executed. Sequential allows to build predictive models layer by layer either by passing a list of layers to sequential constructor or by using the add() method. `add()`  method allows to append blocks of layers in a sequence. However, sequential does not allow to create models which share layers and have multiple inputs and outputs.
 
 
 ## Custom Block
