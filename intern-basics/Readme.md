@@ -26,3 +26,5 @@ Edge detection
 
 Part4: Basic functions in OpenCV Notebook
 
+Part5: Simple sketching program- Trivedh
+
