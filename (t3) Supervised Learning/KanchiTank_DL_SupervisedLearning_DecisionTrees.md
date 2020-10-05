@@ -2,7 +2,7 @@
 
 ## What is a Decision Tree?
 
-<img src = "https://raw.githubusercontent.com/kanchitank/Contribution-program/master/(t3)%20Supervised%20Learning/Decision_Trees/images/1.jpg" width="60%"> 
+<img src = "https://raw.githubusercontent.com/kanchitank/Contribution-program/master/(t3)%20Supervised%20Learning/images/Decision_Trees/1.jpg" width="60%"> 
 
 A **decision tree** is a flowchart-like structure in which:
 - Each internal node represents **a test on a feature** (e.g. whether a coin flip comes up heads or tails) , 
@@ -16,7 +16,7 @@ The tree can be explained by two entities, namely decision nodes and leaves. The
 
 Below diagram illustrates the basic flow of decision tree for decision making with labels (Rain(**Yes**), No Rain(**No**)):
 
-<img src = "https://raw.githubusercontent.com/kanchitank/Contribution-program/master/(t3)%20Supervised%20Learning/Decision_Trees/images/2.png" width="60%"> 
+<img src = "https://raw.githubusercontent.com/kanchitank/Contribution-program/master/(t3)%20Supervised%20Learning/images/Decision_Trees/2.png" width="60%"> 
 
 ### Decision tree is one of the predictive modelling approaches used in **statistics, data mining and machine learning**.
 
@@ -30,7 +30,7 @@ Below diagram illustrates the basic flow of decision tree for decision making wi
 - **Pruning** - Removal of subnodes from a decision node.
 - **Parent and Child Node** - When a node gets divided further then that node is termed as parent node whereas the divided nodes or the sub-nodes are termed as a child node of the parent node.
 
-<img src = "https://raw.githubusercontent.com/kanchitank/Contribution-program/master/(t3)%20Supervised%20Learning/Decision_Trees/images/5.png" width="80%"> 
+<img src = "https://raw.githubusercontent.com/kanchitank/Contribution-program/master/(t3)%20Supervised%20Learning/images/Decision_Trees/5.png" width="80%"> 
 
 Decision trees classify the examples by sorting them down the tree from the root to some leaf/terminal node, with the leaf/terminal node providing the classification of the example.
 
@@ -43,13 +43,13 @@ There are two main types of Decision Trees:
 What we’ve seen above is an example of classification tree, where the outcome was either 'Yes' or 'No'. This type of decision tree is called a **Categorical variable decision tree**. 
 <br>Below is one more example of Categorical variable decision tree:
 
-<img src = "https://raw.githubusercontent.com/kanchitank/Contribution-program/master/(t3)%20Supervised%20Learning/Decision_Trees/images/3.png" width="60%"> 
+<img src = "https://raw.githubusercontent.com/kanchitank/Contribution-program/master/(t3)%20Supervised%20Learning/images/Decision_Trees/3.png" width="60%"> 
 
 - **Continuous Variable Decision Tree** <br>
 If the input is numeric types and or is continuous in nature like when we have to predict a house price. Then the used decision tree is called a **Continuous variable decision tree**.
 <br>Below is the example of Continuous variable decision tree:
 
-<img src = "https://raw.githubusercontent.com/kanchitank/Contribution-program/master/(t3)%20Supervised%20Learning/Decision_Trees/images/4.png" width="60%"> 
+<img src = "https://raw.githubusercontent.com/kanchitank/Contribution-program/master/(t3)%20Supervised%20Learning/images/Decision_Trees/4.png" width="60%"> 
 
 ## Algorithms used in Decision Trees
 
