@@ -7,3 +7,5 @@
 | 5) Logistic Regression<br>6) K-Nearest Neighbours              | Saloni Dagli   |  |
 | 7) Support Vector Machines (SVM)<br>8) XGBoost                 | Shashank Kumar |  |
 | 9) Random Forest                                               | Abhishek Raj   |  |
+
+#### Mentor:Kumari Neha
