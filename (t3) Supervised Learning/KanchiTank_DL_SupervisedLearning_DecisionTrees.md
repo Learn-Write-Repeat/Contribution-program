@@ -60,7 +60,7 @@ If the input is numeric types and or is continuous in nature like when we have t
 - **MARS** → (multivariate adaptive regression splines)
 
 ## What are the Advantages and Disadvantages of Decision Trees?
- 
+
 ### Advantages
 
 - DT is **effective** and is **very simple**.
