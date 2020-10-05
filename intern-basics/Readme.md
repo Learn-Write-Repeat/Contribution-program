@@ -14,7 +14,7 @@ Part3: Any Project-Numpy&Pandas                - Julian
 
 
 
-Part7: Basic functions in OpenCV               - Nirmal
+Part4: Basic functions in OpenCV               - Nirmal
 
 Grayscaling
 Image Translations
@@ -24,5 +24,5 @@ Arithmetic and bitwise Operations.
 Sharpening, Thresholding, Dilation
 Edge detection
 
-Part7: Basic functions in OpenCV Notebook
+Part4: Basic functions in OpenCV Notebook
 
