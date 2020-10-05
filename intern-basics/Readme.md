@@ -1,10 +1,12 @@
 
 
 Part1: Revisiting Numpy                        - Harsh
+
 Part1: Numpy notebook
 
 
 Part2: Revisiting Pandas                       - Ashvni
+
 Part2: Pandas notebook
 
 
