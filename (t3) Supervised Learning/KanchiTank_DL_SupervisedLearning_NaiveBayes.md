@@ -32,7 +32,7 @@ We make two assumptions here:
 
 According to this example, Bayes theorem can be rewritten as:
 
-<img src = "https://raw.githubusercontent.com/kanchitank/Contribution-program/master/(t3)%20Supervised%20Learning/images/Naive_Bayes/4.png"> 
+<img src = "https://raw.githubusercontent.com/kanchitank/Contribution-program/master/(t3)%20Supervised%20Learning/images/Naive_Bayes/4.png">
 
 The variable **y is the class variable(play golf)**, which represents if it is suitable to play golf or not given the conditions. Variable **X represent the parameters/features**.
 
