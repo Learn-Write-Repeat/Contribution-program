@@ -1,6 +1,6 @@
 # Hyper-parameter Tuning of Machine Learning (ML) Models  
 
-![Header](https://github.com/shalakasaraogi/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/Shalaka_DL_DLComputation/Extras/title.jpg)
+![Header](https://github.com/shalakasaraogi/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/Shalaka_DL_DLComputations/Extras/title.jpg)
 
 When creating a machine learning model, we will be presented with design choices as how to define our model architecture. Often times, we don’t immediately know what the optimal model architecture should be for a given model which result us to explore a range of possibilities. In true machine learning fashion, we will ideally ask the machine to perform this exploration and select the optimal model architecture automatically. 
 
@@ -12,7 +12,7 @@ Parameters which define the model architecture are referred to as **Hyper-parame
 
 Two types of parameters exist in machine learning models: one that can be initialized and updated through the data learning process (*e.g. the weights of neurons in neural networks, number of epochs, activation function*), named **Model-parameters**; while other named **Hyper-parameters**, cannot be directly estimated from data learning and must be set before training a Machine learning model because they define the architecture of a machine learning model.  
 
-![model vs hyper](https://github.com/shalakasaraogi/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/Shalaka_DL_DLComputation/Extras/model%20vs.png)
+![model vs hyper](https://github.com/shalakasaraogi/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/Shalaka_DL_DLComputations/Extras/model%20vs.png)
 
 To fit a machine learning model into different problems, its hyper-parameters must be tuned. Selecting the best hyper-parameter configuration for machine learning models has a direct impact on the model’s performance i.e on accuracy and efficiency while training the model. Therefore it needed to be set accurately to get better and efficient results.
 
@@ -40,7 +40,7 @@ The Grid search method is a simpler algorithm to use but it suffers if data have
 
 Randomly samples the search space and evaluates sets from a specified probability distribution. For example, Instead of trying to check all 100,000 samples, we can check 1000 random parameters. The drawback of using the random search algorithm, however, it doesn’t use information from prior experiments to select the next set and also it is very difficult to predict the next of experiments.
 
-![grid-vs-random](https://github.com/shalakasaraogi/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/Shalaka_DL_DLComputation/Extras/Untitled%20design.jpg)
+![grid-vs-random](https://github.com/shalakasaraogi/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/Shalaka_DL_DLComputations/Extras/Untitled%20design.jpg)
 
 **Bayesian Optimization-**
 
@@ -54,11 +54,11 @@ Gaussian process (GP) is a standard surrogate model for objective function model
 1. Gaussian process will be used as a prior for Bayesian inference
 2. To computing the posterior is that it can be used to make predictions for unseen test cases.
 
-![gaussian-prior](https://github.com/shalakasaraogi/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/Shalaka_DL_DLComputation/Extras/GP-prior.png)
+![gaussian-prior](https://github.com/shalakasaraogi/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/Shalaka_DL_DLComputations/Extras/GP-prior.png)
 
 Figure: Gaussian Process prior distribution → [Source](http://katbailey.github.io/post/gaussian-processes-for-dummies/)
 
-![guassian-posterior](https://github.com/shalakasaraogi/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/Shalaka_DL_DLComputation/Extras/GP-posteior.png)
+![guassian-posterior](https://github.com/shalakasaraogi/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/Shalaka_DL_DLComputations/Extras/GP-posteior.png)
 
 Figure: Gaussian Process posterior distribution by applying covariance matrix → [Source](http://katbailey.github.io/post/gaussian-processes-for-dummies/)
 
@@ -66,7 +66,7 @@ Figure: Gaussian Process posterior distribution by applying covariance matrix �
 
 Tree-structured Parzen estimator (TPE) is another common surrogate model for Bayesian Optimization. Instead of defining a predictive distribution used in BO-GP, BO-TPE creates two density functions, l(x) and g(x), to act as the generative models for all domain variables. To apply TPE, the observation results are divided into good results and poor results by a pre-defined percentile y∗, and the two sets of results are modeled by simple Parzen windows:  
 
-![equation](https://github.com/shalakasaraogi/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/Shalaka_DL_DLComputation/Extras/equation.png)
+![equation](https://github.com/shalakasaraogi/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/Shalaka_DL_DLComputations/Extras/equation.png)
 
 ### Some Advantages & Disadvantages of Hyper-parameter Tuning Algorithms:
 
@@ -88,7 +88,7 @@ The sample code for Hyper-parameter tuning of ML models (both for regression & c
 
 `Dataset Used:` [Bouston Housing Dataset](https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html)
 
-`Code:` [Shalaka_DL_DLComputations_HPTRegression.ipynb](https://github.com/shalakasaraogi/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/Shalaka_DL_DLComputation/Shalaka_DL_DLComputations_HPTRegression.ipynb)  
+`Code:` [Shalaka_DL_DLComputations_HPTRegression.ipynb](https://github.com/shalakasaraogi/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/Shalaka_DL_DLComputations/Shalaka_DL_DLComputations_HPTRegression.ipynb)  
 
 `Performance Metric Used:` Mean Square Error (MSE)  
 
@@ -97,7 +97,7 @@ The sample code for Hyper-parameter tuning of ML models (both for regression & c
 
 `Dataset Used:` [MNIST Dataset](http://yann.lecun.com/exdb/mnist/)  
 
-`Code:`  [Shalaka_DL_DLComputations_HPTClassification.ipynb](https://github.com/shalakasaraogi/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/Shalaka_DL_DLComputation/Shalaka_DL_DLComputations_HPTClassification.ipynb)  
+`Code:`  [Shalaka_DL_DLComputations_HPTClassification.ipynb](https://github.com/shalakasaraogi/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/Shalaka_DL_DLComputations/Shalaka_DL_DLComputations_HPTClassification.ipynb)  
 
 `Performance Metric Used:` Classification Accuracy
 
