@@ -1,13 +1,14 @@
 # Deploy-ML-model-using-Flask
 ## About Application 
-This is a salary predicting web app project using ML and Flask.It prdicts the salry on the basis of the 3 inputs ( experience , test score and interview score ) 
+This is a salary predicting machine learninhg  project deployed using  Flask.It predicts the salry on the basis of the 3 inputs ( experience , test score and interview score )
+After our model is built, we will be saving our trained model using a library called pickle.Python pickle module is used for serializing and de-serializing a Python object structure. Any object in Python can be pickled so that it can be saved on disk. What pickle does is that it “serializes” the object first before writing it to file. 
 ## Algorithm used 
-I have used Linear Regression algorithm in this project.
+I have build a simple regression model using scikit-learn’s built-in LinearRegression() function.
 ## Prerequisites
 You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
 ## Dataset used
 This is the [dataset](https://github.com/akrish4/Contribution-program/blob/master/ML_models_Flask/Ananthakrishnan%20Nair%20RS/hiring.csv) used.
-
+It’s a very simple data set with 4 attributes and 8 rows. All the columns are numerical columns and this data used here is clean and is ready to be applied for a classifier.
 ## Project Structure
 This project has four major parts :
 1. model.py - This contains code fot our Machine Learning model to predict employee salaries based on trainign data in 'hiring.csv' file.
