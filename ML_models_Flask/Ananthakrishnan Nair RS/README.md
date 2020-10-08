@@ -5,7 +5,8 @@ This is a salary predicting web app project using  machine learning and Flask.
 I have used Linear Regression algorithm in this project.
 ## Prerequisites
 You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
-
+## Dataset used
+This is the [dataset](https://github.com/akrish4/Contribution-program/blob/master/ML_models_Flask/Ananthakrishnan%20Nair%20RS/hiring.csv) used.
 
 ## Project Structure
 This project has four major parts :
