@@ -1,6 +1,6 @@
 # Deploy-ML-model-using-Flask
 ## About Application 
-This is a salary predicting web app project using  machine learning and Flask.
+This is a salary predicting web app project using ML and Flask.It prdicts the salry on the basis of the 3 inputs ( experience , test score and interview score ) 
 ## Algorithm used 
 I have used Linear Regression algorithm in this project.
 ## Prerequisites
