@@ -1,6 +1,6 @@
 # Deploy-ML-model-using-Flask
 ## About Application 
-This is a salary predicting machine learninhg  project deployed using  Flask.It predicts the salry on the basis of the 3 inputs ( experience , test score and interview score )
+This is a salary predicting machine learning  project deployed using  Flask.It predicts the salary on the basis of the 3 inputs ( experience , test score and interview score )
 After our model is built, we will be saving our trained model using a library called pickle.Python pickle module is used for serializing and de-serializing a Python object structure. Any object in Python can be pickled so that it can be saved on disk. What pickle does is that it “serializes” the object first before writing it to file. 
 ## Algorithm used 
 I have build a simple regression model using scikit-learn’s built-in LinearRegression() function.
