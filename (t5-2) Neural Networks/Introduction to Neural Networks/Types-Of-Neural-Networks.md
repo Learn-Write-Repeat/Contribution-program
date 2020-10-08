@@ -1,13 +1,14 @@
+Hello Everyone :wave:
 
-
-
-ANN is devided into many types, some of them are listed here below:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this blog we will discuss on different types of artificial neural networks. The neural networks are designed by the programmer as per the requirements to solve a perticular problem.
+Neural Networks are devided into many types, some of them are listed here below:
 
 1. **Feed-Forward Neural Network:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Feed-Forward-NN](Image/Feed-forward-NN.png)
 
 The feedforward neural network was the first and simplest type of artificial neural network devised. In this network, the information moves in only one direction—forward—from the input nodes, through the hidden nodes (if any) and to the output nodes. There are no cycles or loops in the network.[[wikipedia]](https://en.wikipedia.org/wiki/Feedforward_neural_network)
+
 Here each node of one layer connected to all the nodes of adjecent layer.
 
 
@@ -17,7 +18,9 @@ Here each node of one layer connected to all the nodes of adjecent layer.
 
 
 
+3. **Recurrent Neural Network:**
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![RNN](Image/RNN-1.png)
 
 
 
