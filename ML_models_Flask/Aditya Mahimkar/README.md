@@ -1,4 +1,4 @@
-## Problem Statement
+## Problem Statement - Loan Prediction System
 To predict whether the customer is eligible for applying a loan application based on various parameters such as gender, maritial status, income, education, employment, loan amount, loan term, and credit history given by user on the website hosted using Flask.
 
 ## Machine Learning Algorithm
