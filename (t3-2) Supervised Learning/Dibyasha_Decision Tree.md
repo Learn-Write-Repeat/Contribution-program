@@ -11,7 +11,8 @@ The basic idea that goes with is that there is a teacher or supervisor who guide
 Here, we do not train the machine rather we leave the machine to study on its own and discover the hidden patterns in the data. Unsupervised Learning deals with unlabeled data. 
 
 <br>As mentioned above machine apply some algorithms to study the data, these two types of learning have some algorithms. So, we are here today to learn about **Decision Tree Algorithm** which is a supervised learning.
-## Decision Tree Algorithm :tree:
+
+## Decision Tree Algorithm :deciduous_tree:
 <br>The **Decision Tree Algorithm** is similar to the if-else statements in looping. Decision Tree is the graphical representation of answers to our own problems which we come across daily in our life based upon some conditions.
 
 ## Example of Decision Tree:
