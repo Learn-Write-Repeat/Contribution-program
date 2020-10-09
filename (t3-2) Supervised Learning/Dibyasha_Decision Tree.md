@@ -13,7 +13,7 @@ Here, we do not train the machine rather we leave the machine to study on its ow
 <br>As mentioned above machine apply some algorithms to study the data, these two types of learning have some algorithms. So, we are here today to learn about **Decision Tree Algorithm** which is a supervised learning.
 
 ## Decision Tree Algorithm :deciduous_tree:
-<br>The **Decision Tree Algorithm** is similar to the if-else statements in looping. Decision Tree is the graphical representation of answers to our own problems which we come across daily in our life based upon some conditions.
+The **Decision Tree Algorithm** is similar to the if-else statements in looping. Decision Tree is the graphical representation of answers to our own problems which we come across daily in our life based upon some conditions.
 
 ## Example of Decision Tree:
 <img src="images/pic2.png">
