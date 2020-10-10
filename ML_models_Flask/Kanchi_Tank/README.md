@@ -9,7 +9,7 @@
 - **Naive Bayes**
 
 ### Dataset
-I have created a dataset "**[Names_dataset.csv](https://raw.githubusercontent.com/kanchitank/Contribution-program/master/ML_models_Flask/ML_applicationmodels_Flask/Kanchi_Tank/data/Names_dataset.csv)**" by combining three different datasets namely [Indian male names](https://mbejda.github.io/), [Indian female names](https://mbejda.github.io/) and [English names](https://www.kaggle.com/kaggle/us-baby-names?select=NationalNames.csv). 
+I have created a dataset "**[Names_dataset.csv](https://raw.githubusercontent.com/kanchitank/Contribution-program/master/ML_models_Flask/Kanchi_Tank/data/Names_dataset.csv)**" by combining three different datasets namely [Indian male names](https://mbejda.github.io/), [Indian female names](https://mbejda.github.io/) and [English names](https://www.kaggle.com/kaggle/us-baby-names?select=NationalNames.csv). 
 
 # How to run this model with Flask
 
