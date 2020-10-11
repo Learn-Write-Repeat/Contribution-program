@@ -90,9 +90,9 @@ This model is made by using classification algorithm SVM(Support Vector Machine)
 
 # Output-
 
-![image1.png](attachment:image1.png)
+![image1.png](image1.png)
 
-![image2.png](attachment:image2.png)
+![image2.png](image2.png)
 
 <!-- ![image3.png](attachment:image3.png) -->
 
