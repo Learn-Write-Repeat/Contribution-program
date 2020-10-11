@@ -37,11 +37,16 @@ Dropout layer is used to avoid the model from overfitting.
 
 `tf.keras.layers.Dropout(rate, noise_shape=None, seed=None, **kwargs)`
 
-`rate`- Rate at which units are dropped. Value ranges from 0-1 (0- No dropout, 1- Drop all units)
+`rate`- Fraction of units to be dropped. Value ranges from 0-1 (0- No dropout, 1- Drop all units)
 
-`noise_shape`- 
+`noise_shape`- 1D integer tensor representing the shape of the binary dropout mask that will be multiplied with the input.
 
-`seed`-
+`seed`- integer to use as random seed
+
+Training Phase: For each hidden layer, for each training sample, for each iteration, ignore a random fraction, p, of nodes and corresponding activations.
+
+Testing Phase: Use all activations, but reduce them by a factor p to account for the missing activations during training.
+
 
 
 ## Convolution Layer
@@ -63,7 +68,14 @@ Here, the input is 5 x 5(N x N) size and filter is 3 x 3(F x F) size so feature 
 
 
 ## Embeded Layer
+Embedding layer is a layer which tranforms positive integers (indexes) into dense vectors of fixed size. Embedding layer is used in neural networks on large input textual data.
+It requires the input data to be integer encoded ie. each word in text should be represented by a unique integer.
+Consider an example where there are 50,000 unique words in a text which needs to be classified. After preprocessing this textual data, sparse matrix of large dimensions(50,000
+dimentional vector) will be used to feed to the neural network model. This will require huge amount of memory and time. So, embedding layer is used where high dimentional
+vectors are translated to low dimensional vectors.
 
+
+## LSTM
 
 ## Sequential Block
 A neural network block is described as a single layer, a component which consists of multiple layers, or the entire model itself.
@@ -71,7 +83,11 @@ Thus, a sequential block is a block which allows to build model that holds linea
 predictive models layer by layer either by passing a list of layers to sequential constructor or by using the add() method. `add()`  method allows to append blocks of layers in
 a sequence. However, sequential does not allow to create models which share layers and have multiple inputs and outputs.
 
+*Refer the .ipynb file to understand working of Sequential Block.*
+
 
 ## Custom Block
 A custom block is simply a block which allows us to build or code our own custom models and blocks. In order to create custom block or model, block class must be extended and 
 methods `init` and `forward` should be overriden to define parameters of model and forward function, respectively.
+
+*Refer the .ipynb file to understand how to implement our own Custom Block.*
