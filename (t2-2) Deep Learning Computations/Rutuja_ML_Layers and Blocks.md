@@ -8,8 +8,7 @@
 * Sequential Block
 
 ## Dense layer
-Dense layer is deeply/fully connected neural network layer where neurons in a layer are connected to all other neurons in the next layer. This is the most commonly used layer in
-neural networks.
+Dense layer is deeply/fully connected neural network layer where each neuron in a layer is connected to all the other neurons in the next layer. This is the most commonly used layer in neural networks.
 After extracting features from input data, in order to classify the output into various classes, dense layer is used.
 
 <img src="https://miro.medium.com/max/875/1*eJ36Jpf-DE9q5nKk67xT0Q.jpeg"></img>
@@ -70,11 +69,14 @@ Here, the input is 5 x 5(N x N) size and filter is 3 x 3(F x F) size so feature 
 
 
 ## Embedding Layer
-Embedding layer is a layer which tranforms positive integers (indexes) into dense vectors of fixed size. Embedding layer is used in neural networks on large input textual data.
+Embedding layer is a layer which tranforms positive integers(indexes) into dense vectors of fixed size. Embedding layer is used in neural networks on large input textual data.
 It requires the input data to be integer encoded ie. each word in text should be represented by a unique integer.
 Consider an example where there are 5000 unique words in a text which needs to be classified. After preprocessing(one-hot encoding) this textual data, sparse matrix of large
-dimensions(5000 dimentional vector for each word) will be generated and this will be used to feed the neural network model. This will require huge amount of memory and time an
+dimensions(5000 dimentional vector for each word) will be generated and this will be used to feed the neural network model. This will require huge amount of memory and time and
 hence this approach is inefficient. So, embedding layer is used where high dimentional vectors are translated to low dimensional vectors.
+
+
+*Refer the .ipynb file to understand how to understand working of Embedding Layer.*
  
 
 ## LSTM
