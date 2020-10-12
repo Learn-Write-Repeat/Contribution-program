@@ -27,6 +27,8 @@ Dense layer performs linear operation on input as follows:
 
 `activation`- Activation function
 
+*Refer the .ipynb file to understand operation of Dense Layer.*
+
 
 ## Dropout Layer
 <img src="https://jamesmccaffrey.files.wordpress.com/2018/05/neuralnetworkdropoutlayer.jpg"></img>
@@ -50,7 +52,7 @@ Testing Phase: Use all activations, but reduce them by a factor p to account for
 
 
 ## Convolution Layer
-Convolution layer is building block of CNN(convolution neural network) and is mostly used while working with 2D image data. It use to extract features from images.
+Convolution layer is building block of CNN(convolution neural network) and is mostly used while working with 2D image data. It used to extract features from images.
 Convolution layer performs a linear operation 'convolution' on input data. This layer applies a filter/kernel on input data to produce feature map. 
 The filter is smaller than the input data and element wise matrix multiplication takes place between a filter-sized patch of the input data and the filter/kernel and then the
 sum is added to the feature map/matrix.
@@ -67,15 +69,17 @@ Here, the input is 5 x 5(N x N) size and filter is 3 x 3(F x F) size so feature 
 (5 x 5) * (3 x 3) = (5-3+1)x(5-3+1) = (3 x 3)
 
 
-## Embeded Layer
+## Embedding Layer
 Embedding layer is a layer which tranforms positive integers (indexes) into dense vectors of fixed size. Embedding layer is used in neural networks on large input textual data.
 It requires the input data to be integer encoded ie. each word in text should be represented by a unique integer.
-Consider an example where there are 50,000 unique words in a text which needs to be classified. After preprocessing this textual data, sparse matrix of large dimensions(50,000
-dimentional vector) will be used to feed to the neural network model. This will require huge amount of memory and time. So, embedding layer is used where high dimentional
-vectors are translated to low dimensional vectors.
-
+Consider an example where there are 5000 unique words in a text which needs to be classified. After preprocessing(one-hot encoding) this textual data, sparse matrix of large
+dimensions(5000 dimentional vector for each word) will be generated and this will be used to feed the neural network model. This will require huge amount of memory and time an
+hence this approach is inefficient. So, embedding layer is used where high dimentional vectors are translated to low dimensional vectors.
+ 
 
 ## LSTM
+
+
 
 ## Sequential Block
 A neural network block is described as a single layer, a component which consists of multiple layers, or the entire model itself.
