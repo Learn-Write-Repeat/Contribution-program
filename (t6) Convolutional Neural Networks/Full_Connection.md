@@ -4,7 +4,7 @@ Artificial neural networks (ANNs) are biologically inspired computer programs de
 To understand this better -
 Consider the figure below:
 
-![Neuron](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6KIqMH-w2JZNnnsxUvhQqXbSgOV20uEizmg&usqp=CAU)
+![Neuron](https://upload.wikimedia.org/wikipedia/commons/8/86/1206_The_Neuron.jpg)
 
 The figure represents a neuron of a human brain. Human brain learns through experience. This learning is done, by adjusting certain events and giving them priority.
 This process of giving priority to any event is done by giving weights to each of the event, and these weights are then passed to other neurons through a phenomenon called
