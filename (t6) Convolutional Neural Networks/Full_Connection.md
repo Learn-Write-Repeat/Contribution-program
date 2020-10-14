@@ -19,7 +19,7 @@ There are 3 layers,
 * Hidden Layer
 * Output Layer
 
-### working of an ANN:
+### Working of an ANN:
 ANNs gather their knowledge by detecting the patterns and relationships in data and learn (or are trained) through experience, not from programming. An ANN is formed from
 hundreds of single units, artificial neurons or processing elements (PE), connected with coefficients (weights), which constitute the neural structure and are organised in 
 layers. The power of neural computations comes from connecting neurons in a network. Each PE has weighted inputs, transfer function and one output. The behavior of a neural 
@@ -45,6 +45,7 @@ correctly classify our first training example.
 We repeat this process with all other training examples in our dataset. Then, our network is said to have learnt those examples.
 
 The overall working of ANN can be seen through the given flowchart:
+
 ![flowchart](https://miro.medium.com/max/1168/0*ZJtto33Yo-gc4xPa.png)
 
 
@@ -55,7 +56,7 @@ followed by flattening. Now this reduction of dimensions is done so that, ANN ca
 ANN cannot take an input directly in the form of an image, so first we have to reduce its dimensions. 
 After Flattening of the image, we get a form in which ANN can take the input.
 
-![Full_connection](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTi05rHS9NXjWZo3I3P4Ufi5TSZq5cv7KvtXQ&usqp=CAU)
+![Full_connection](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS_H6IImXXjHKuYch8OiIMwbrxxLd_pJ7COuQ&usqp=CAU)
 
 The full connection can be seen in the above figure.
 
