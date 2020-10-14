@@ -15,9 +15,9 @@ Consider the figure below:
 ![ANN](https://groupfuturista.com/blog/wp-content/uploads/2019/03/Artificial-Neural-Networks-Man-vs-Machine-735x400.jpeg)
 
 There are 3 layers, 
-* Input Layer
-* Hidden Layer
-* Output Layer
+* Input Layer - takes the input 
+* Hidden Layer - adjust the weights/ learning phase
+* Output Layer - displays the result
 
 ### Working of an ANN:
 ANNs gather their knowledge by detecting the patterns and relationships in data and learn (or are trained) through experience, not from programming. An ANN is formed from
@@ -44,7 +44,8 @@ correctly classify our first training example.
 
 We repeat this process with all other training examples in our dataset. Then, our network is said to have learnt those examples.
 
-The overall working of ANN can be seen through the given flowchart:
+
+### General view of ANN:
 
 ![flowchart](https://miro.medium.com/max/1168/0*ZJtto33Yo-gc4xPa.png)
 
