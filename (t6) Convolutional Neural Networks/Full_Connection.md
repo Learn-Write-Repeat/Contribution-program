@@ -55,6 +55,7 @@ Consider an example of predicting whether a car is present in an image or not. F
 followed by flattening. Now this reduction of dimensions is done so that, ANN can take that as an input.
 ANN cannot take an input directly in the form of an image, so first we have to reduce its dimensions. 
 After Flattening of the image, we get a form in which ANN can take the input.
+At the end we can also apply **softmax function**, in order to get the output in the form of binary, and hence it reduces the loss.
 
 ![Full_connection](https://1d-cnn.hostforjusteasy.fun/img/794152cb48c9bc9774e72bf7c0d6366c.png)
 
