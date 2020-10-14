@@ -44,5 +44,19 @@ correctly classify our first training example.
 
 We repeat this process with all other training examples in our dataset. Then, our network is said to have learnt those examples.
 
+The overall working of ANN can be seen through the given flowchart:
+![flowchart](https://miro.medium.com/max/1168/0*ZJtto33Yo-gc4xPa.png)
 
-![https://miro.medium.com/max/1168/0*ZJtto33Yo-gc4xPa.png] #### flowchart
+
+# Full Connection:
+Full connection represent the overall connection for the Convolutional Neural Networks - (CNN + ANN) 
+Consider an example of predicting whether a car is present in an image or not. For this purpose we train our Convolutional layer and reduce its dimenstions by max pooling
+followed by flattening. Now this reduction of dimensions is done so that, ANN can take that as an input.
+ANN cannot take an input directly in the form of an image, so first we have to reduce its dimensions. 
+After Flattening of the image, we get a form in which ANN can take the input.
+
+![Full_connection](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTi05rHS9NXjWZo3I3P4Ufi5TSZq5cv7KvtXQ&usqp=CAU)
+
+The full connection can be seen in the above figure.
+
+---
