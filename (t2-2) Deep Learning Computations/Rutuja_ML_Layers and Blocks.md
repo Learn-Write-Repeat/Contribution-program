@@ -80,6 +80,15 @@ hence this approach is inefficient. So, embedding layer is used where high dimen
  
 
 ## LSTM
+LSTM stands for *Long Short Term Memory*. LSTM networks are kind of recurrent neural networks. Recurrent neural network can remember the characteristcs of its recent previous
+inputs and outputs but it does not have the capability to remember long past inputs and outputs. In some cases, it may not be sufficient for the network to rely on recent or
+immediate previous inputs and outputs for predictions. This is known as Long term dependency. LSTM deals with this long term dependency problem.
+
+LSTM networks have LSTM cells in place of standard neural network layers. LSTM's have internal mechanism called gates that control the flow of information. These gates consist
+of input gate, forget gate and output gate. These gates learn which data should be
+retained as important and which data should be discarded.
+
+<img src="https://www.oreilly.com/library/view/keras-deep-learning/9781788621755/assets/54539bd1-c79a-48a2-8d07-6c337ce8966f.png"></img>
 
 
 
