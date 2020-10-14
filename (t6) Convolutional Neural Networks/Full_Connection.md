@@ -33,13 +33,13 @@ predict the output.
 We calculate the total error at the output nodes and propagate these errors back through the network using Backpropagation to calculate the gradients. Then we use an 
 optimization method such as Gradient Descent to ‘adjust’ all weights in the network with an aim of reducing the error at the output layer.
 
-![https://ujwlkarn.files.wordpress.com/2016/08/screen-shot-2016-08-09-at-11-53-06-pm.png?w=748]
+![backpropagation](https://ujwlkarn.files.wordpress.com/2016/08/screen-shot-2016-08-09-at-11-53-06-pm.png?w=748)
 
 Suppose that the new weights associated with the node in consideration are w4, w5 and w6 (after Backpropagation and adjusting weights).
 If we now input the same example to the network again, the network should perform better than before since the weights have now been adjusted to minimize the error in 
 prediction. As shown in Figure 7, the errors at the output nodes now reduce to [0.2, -0.2] as compared to [0.6, -0.4] earlier. This means that our network has learnt to 
 correctly classify our first training example.
 
-![https://ujwlkarn.files.wordpress.com/2016/08/screen-shot-2016-08-09-at-11-53-15-pm.png?w=748]
+![adjusting_weights](https://ujwlkarn.files.wordpress.com/2016/08/screen-shot-2016-08-09-at-11-53-15-pm.png?w=748)
 
 We repeat this process with all other training examples in our dataset. Then, our network is said to have learnt those examples.
