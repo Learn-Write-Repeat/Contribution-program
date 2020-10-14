@@ -1,0 +1,31 @@
+{% extends "bootstrap/base.html" %}
+{% block content %}
+<link rel="stylesheet" href="{{url_for('.static', filename='css/styles.css')}}">
+
+<div class="container">
+    <div class="jumbotron" style="background-image: linear-gradient(to right, #7b4397, #dc2430) !important;">
+        <h2 style="color:#fff; text-align: center;">Gender Classifier</h2>
+        <p style="color:#fff; text-align: center;">Classify Gender Using Machine Learning</p>
+    </div>
+</div>
+
+<div class="panel-group">
+    <div class="panel panel-default">
+        <div class="panel-heading" style="background-image: linear-gradient(to right, #7b4397, #dc2430); text-align: center; color: #fff">Enter a name</div>
+        <div class="panel-body center_div justify-content-center">
+            <!-- Main Input For Receiving Query to our ML -->
+            <form action="{{ url_for('predict')}}" method="POST">
+                <input type="text" name="namequery" placeholder="Name" style="text-align: center; justify-content: center; margin-left: 66rem">
+                <br><br>
+                <button type="submit" class="btn" style="justify-content: center; color: #fff; background-image: linear-gradient(to right, #7b4397, #aa3464); text-align: center; margin-left: 72rem">Predict</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
+
+{% block styles %}
+{{super()}}  <!--Allows Javascripts and other styles to be inclusive in bootstrap -->
+{% endblock %}
