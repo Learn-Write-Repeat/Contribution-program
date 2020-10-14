@@ -15,7 +15,7 @@ Consider the figure below:
 ![ANN](https://groupfuturista.com/blog/wp-content/uploads/2019/03/Artificial-Neural-Networks-Man-vs-Machine-735x400.jpeg)
 
 There are 3 layers, 
-* Input Layer - takes the input 
+* Input Layer  - takes the input 
 * Hidden Layer - adjust the weights/ learning phase
 * Output Layer - displays the result
 
