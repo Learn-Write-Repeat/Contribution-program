@@ -56,7 +56,7 @@ followed by flattening. Now this reduction of dimensions is done so that, ANN ca
 ANN cannot take an input directly in the form of an image, so first we have to reduce its dimensions. 
 After Flattening of the image, we get a form in which ANN can take the input.
 
-![Full_connection](https://media.springernature.com/original/springer-static/image/chp%3A10.1007%2F978-981-10-8354-9_28/MediaObjects/454197_1_En_28_Fig1_HTML.gif)
+![Full_connection](https://1d-cnn.hostforjusteasy.fun/img/794152cb48c9bc9774e72bf7c0d6366c.png)
 
 The full connection can be seen in the above figure.
 
