@@ -51,7 +51,7 @@ Testing Phase: Use all activations, but reduce them by a factor p to account for
 
 
 ## Convolution Layer
-Convolution layer is building block of CNN(convolution neural network) and is mostly used while working with 2D image data. It used to extract features from images.
+Convolution layer is building block of CNN(convolution neural network) and is mostly used while working with 2D image data. It is used to extract features from images.
 Convolution layer performs a linear operation 'convolution' on input data. This layer applies a filter/kernel on input data to produce feature map. 
 The filter is smaller than the input data and the operation involves element wise matrix multiplication between the filter-sized patch of the input data and the filter/kernel
 and then the sum is added to the feature map/matrix.
@@ -61,7 +61,7 @@ and then the sum is added to the feature map/matrix.
 
 After applying given filter to above input, below shown feature map is obtained.<img src="https://miro.medium.com/max/875/1*VVvdh-BUKFh2pwDD0kPeRA@2x.gif"></img>
 
-Here, the input is 5 x 5(N x N) size and filter is 3 x 3(F x F) size so feature map's size is 3 x 3
+Here, the input is 5 x 5(N x N) size and filter is 3 x 3(F x F) size so feature map's size is (3 x 3)
 
 (N x N) * (F x F) = (N-F+1) x (N-F+1)
 
@@ -102,6 +102,10 @@ A neural network block is described as a single layer, a component which consist
 Thus, a sequential block is a block which allows to build models that holds linear stack of layers in the order in which they should be executed. Sequential allows to build
 predictive models layer by layer either by passing a list of layers to sequential constructor or by using the add() method. `add()`  method allows to append blocks of layers in
 a sequence. However, sequential does not allow to create models which share layers and have multiple inputs and outputs.
+
+<img src="https://d2l.ai/_images/blocks.svg"></img>
+In the above figure, multiple layers are combined into blocks, forming repeating patterns of larger models.
+
 
 *Refer the .ipynb file to understand working of Sequential Block.*
 
