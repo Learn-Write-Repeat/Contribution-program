@@ -98,12 +98,6 @@ operation helps to reduce the risk of vanishing gradients. However, this recurre
 helps the network to learn which state variables should be remembered or forgotten.
 
 
-## Custom Block
-A custom block is simply a block which allows us to build or code our own custom models and blocks. In order to create custom block or model, block class must be extended and
-its methods `init` and `forward` should be overriden to define parameters of model and forward function, respectively.
-
-*Refer the .ipynb file to understand how to implement our own Custom Block.*
-
 
 ## Sequential Block
 A neural network block is described as a single layer, a component which consists of multiple layers, or the entire model itself.
@@ -118,5 +112,10 @@ In the above figure, multiple layers are combined into blocks, forming repeating
 *Refer the .ipynb file to understand working of Sequential Block.*
 
 
+## Custom Block
+A custom block is simply a block which allows us to build or code our own custom models and blocks. In order to create custom block or model, block class must be extended and
+its methods `init` and `forward` should be overriden to define parameters of model and forward function, respectively.
+
+*Refer the .ipynb file to understand how to implement our own Custom Block.*
 
 ### Contribution By- Rutuja Dharankar
