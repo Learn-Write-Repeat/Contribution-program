@@ -74,7 +74,7 @@ textual data.
 It requires the input data to be integer encoded ie. each word in the text should be represented by a unique integer.
 Consider an example where there are 5000 unique words in a text which needs to be classified. After preprocessing(one-hot encoding) this textual data, sparse matrix of large
 dimensions(5000 dimensional vector for each word) will be generated and this will be used to feed the neural network model. This will require huge amount of memory and time and
-hence this approach is inefficient. So, embedding layer is used where high dimensional vectors are translated to low dimensional vectors.
+hence this approach is inefficient. So, embedding layer is used where *high dimensional vectors are translated to low dimensional vectors*.
 
 
 *Refer the .ipynb file to understand working of Embedding Layer.*
@@ -85,8 +85,8 @@ LSTM stands for *Long Short Term Memory*. LSTM networks are kind of recurrent ne
 inputs and outputs but does not have the capability to remember the past inputs and outputs for too long. In some cases, it may not be sufficient for the network to rely on
 recent or immediate previous inputs and outputs for predictions. This is known as Long term dependency. LSTM deals with this long term dependency problem of RNNs.
 
-LSTM networks have LSTM cells in place of standard neural network layers. LSTM's have internal mechanism called gates that controls the flow of information. These gates consist
-of input gate, forget gate and output gate. These gates learn which data should be retained as important and which data should be discarded.
+LSTM networks have *`LSTM cells`* in place of standard neural network layers. LSTM's have internal mechanism called gates that controls the flow of information. These gates
+consist of input gate, forget gate and output gate. These gates learn which data should be retained as important and which data should be discarded.
 
 <img src="https://i1.wp.com/adventuresinmachinelearning.com/wp-content/uploads/2017/09/LSTM-diagram.png?w=669&ssl=1"></img>
 
@@ -111,3 +111,6 @@ A custom block is simply a block which allows us to build or code our own custom
 its methods `init` and `forward` should be overriden to define parameters of model and forward function, respectively.
 
 *Refer the .ipynb file to understand how to implement our own Custom Block.*
+
+
+### Contribution By- Rutuja Dharankar
