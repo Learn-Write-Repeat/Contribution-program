@@ -76,20 +76,24 @@ dimensions(5000 dimentional vector for each word) will be generated and this wil
 hence this approach is inefficient. So, embedding layer is used where high dimentional vectors are translated to low dimensional vectors.
 
 
-*Refer the .ipynb file to understand how to understand working of Embedding Layer.*
+*Refer the .ipynb file to understand working of Embedding Layer.*
  
 
 ## LSTM
 LSTM stands for *Long Short Term Memory*. LSTM networks are kind of recurrent neural networks. Recurrent neural network can remember the characteristcs of its recent previous
 inputs and outputs but it does not have the capability to remember long past inputs and outputs. In some cases, it may not be sufficient for the network to rely on recent or
-immediate previous inputs and outputs for predictions. This is known as Long term dependency. LSTM deals with this long term dependency problem.
+immediate previous inputs and outputs for predictions. This is known as Long term dependency. LSTM deals with this long term dependency problem of RNNs.
 
-LSTM networks have LSTM cells in place of standard neural network layers. LSTM's have internal mechanism called gates that control the flow of information. These gates consist
-of input gate, forget gate and output gate. These gates learn which data should be
-retained as important and which data should be discarded.
+LSTM networks have LSTM cells in place of standard neural network layers. LSTM's have internal mechanism called gates that controls the flow of information. These gates consist
+of input gate, forget gate and output gate. These gates learn which data should be retained as important and which data should be discarded.
 
-<img src="https://www.oreilly.com/library/view/keras-deep-learning/9781788621755/assets/54539bd1-c79a-48a2-8d07-6c337ce8966f.png"></img>
+<img src="https://i1.wp.com/adventuresinmachinelearning.com/wp-content/uploads/2017/09/LSTM-diagram.png?w=669&ssl=1"></img>
 
+In the above diagram, new word or sequence value x<sub>t</sub> is added to the output of previous LSTM cell h<sub>t-1</sub>. This combined input is passed via tanh layer to
+the input gate which consists of sigmoid function. These input gates can discard any input vector that is not required.
+LSTM cells have an internal state variable s<sub>t</sub>. This variable s<sub>t-1</sub> is added to the input data to create an effective layer of recurrence. This addition
+operation helps to reduce the risk of vanishing gradients. However, this recurrence loop is controlled by a forget gate which works similarly to the input gate, but instead
+helps the network to learn which state variables should be remembered or forgotten.
 
 
 ## Sequential Block
