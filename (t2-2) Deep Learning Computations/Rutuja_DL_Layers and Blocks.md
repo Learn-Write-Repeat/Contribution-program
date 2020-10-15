@@ -104,6 +104,7 @@ predictive models layer by layer either by passing a list of layers to sequentia
 a sequence. However, sequential does not allow to create models which share layers and have multiple inputs and outputs.
 
 <img src="https://d2l.ai/_images/blocks.svg"></img>
+
 In the above figure, multiple layers are combined into blocks, forming repeating patterns of larger models.
 
 
