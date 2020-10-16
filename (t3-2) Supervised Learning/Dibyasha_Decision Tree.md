@@ -42,6 +42,7 @@ The tree is built through a process called binary recursive partitioning which i
 
 
 ## Attribute Selection Measures:
+The primary challenge in the Decision Tree implementation is to identify the attributes which we consider as the root node and each level. This process is known as the attributes selection. There are different attributes selection measure to identify the attribute which can be considered as the root node at each level.<br>
 **1)Entropy**: This tells how messy is our data. It controls how a decision tree decides to split the data. Its value ranges from 0 to 1. The entropy is 0 if all samples of a node belong to the same class (not good for training dataset), and the entropy is maximal if we have a uniform class distribution (good for training dataset). 
 <br>Entropy(D) = Σ - pi(log2(pi))
 <br>Here also p is probability.
@@ -50,6 +51,28 @@ The tree is built through a process called binary recursive partitioning which i
 <br>Gain(D,A) = Entropy(D) - Σ(((Dj)/D)*Entropy(Dj))
 <br>D is the given data partition
 <br>A is attribute, an attribute can have V distinct values.
+
+**3)Gini Index**: Another attribute selection measure that CART (Categorical and Regression Trees) uses is the Gini index. It uses the Gini method to create split points.
+
+Gini index can be represented with the following diagram:-
+<img src="images/pic5.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Pros of Decision Tree:
 <br>1)Decision trees are easy to visualize and interpret.
