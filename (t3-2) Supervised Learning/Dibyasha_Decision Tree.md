@@ -56,15 +56,24 @@ The primary challenge in the Decision Tree implementation is to identify the att
 Gini index can be represented with the following diagram:-
 
 <img src="images/pic5.png">
-## Classification using the ID3 algorithm:
- This algorithm uses entropy and information gain as metric.<br>
- **Example**: Consider whether a dataset based on which we will determine whether to play football or not.<br>
+
+## Classification using ID3 Algorithm:
+This algorithm uses entropy and information gain as metric.<br>
+**Example**: Consider whether a dataset based on which we will determine whether to play football or not.<br>
  
  <img src="images/pic6.png">
  
 There are for independent variables to determine the dependent variable.<br>
 **Independent variables**: Outlook, Temperature, Humidity, and Wind.<br> 
 **Dependent variable**: is whether to play football or not.
+ 
+ **Step1: Entropy of the class variable.**
+ E(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94
+ Total there are 14 yes/no. Out of which 9 yes and 5 no.Based on it we calculated probability above.
+ 
+ <img src="images/pic7.png">
+ 
+ 
 
 
 
