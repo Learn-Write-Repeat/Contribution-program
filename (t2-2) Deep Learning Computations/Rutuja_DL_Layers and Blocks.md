@@ -7,7 +7,7 @@
 * Sequential Block
 * Custom Block
 
-
+&nbsp;
 ## Dense layer
 Dense layer is a deeply/fully connected neural network layer where each neuron in a layer is connected to all the other neurons in the next layer. This is the most commonly used layer in neural networks.
 After extracting features from input data, in order to classify the output into various classes, dense layer is used.
