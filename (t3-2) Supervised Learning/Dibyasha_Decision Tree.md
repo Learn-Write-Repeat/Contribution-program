@@ -67,13 +67,58 @@ There are for independent variables to determine the dependent variable.<br>
 **Independent variables**: Outlook, Temperature, Humidity, and Wind.<br> 
 **Dependent variable**: is whether to play football or not.
  
- **Step1: Entropy of the class variable.**
- E(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94
- Total there are 14 yes/no. Out of which 9 yes and 5 no.Based on it we calculated probability above.
+ **Step1: Entropy of the class variable.**<br>
+ E(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94<br>
+ Total there are 14 yes/no. Out of which 9 yes and 5 no. Based on it we calculated probability above.
  
  <img src="images/pic7.png">
  
+ **Step2: To calculate total of weights of each feature multiplied by probabilities.**<br>
+ E(S, outlook) = (5/14)*E(3,2) + (4/14)*E(4,0) + (5/14)*E(2,3) = (5/14)(-(3/5)log(3/5)-(2/5)log(2/5))+ (4/14)(0) + (5/14)((2/5)log(2/5)-(3/5)log(3/5)) = 0.693<br>
  
+**Step3: To find the information gain.**<br>
+It is the difference between parent entropy and average weighted entropy we found above.<br>
+IG(S, outlook) = 0.94 - 0.693 = 0.247<br>
+IG(S, Temperature) = 0.940 - 0.911 = 0.029<br>
+IG(S, Humidity) = 0.940 - 0.788 = 0.152<br>
+IG(S, Windy) = 0.940 - 0.8932 = 0.048<br>
+
+**Step3: Select the feature having the largest entropy gain.**<br>
+Here it is Outlook. So it forms the first node(root node) of our decision tree.
+ 
+
+ <img src="images/pic8.png">
+ 
+ <img src="images/pic9.png">
+ 
+ <img src="images/pic10.png">
+ 
+ Since overcast contains only examples of class ‘Yes’ we can set it as yes. That means If outlook is overcast football will be played. Now our decision tree looks as follows.
+ 
+ <img src="images/pic11.png">
+ 
+ The next step is to find the next node in our decision tree. Now we will find one under sunny. We have to determine which of the following Temperature, Humidity or Wind has higher information gain.
+
+
+ <img src="images/pic12.png">
+ 
+ E(sunny) = (-(3/5)log(3/5)-(2/5)log(2/5)) = 0.971.
+ 
+  <img src="images/pic13.png">
+  
+ E(sunny, Temperature) = (2/5)*E(0,2) + (2/5)*E(1,1) + (1/5)*E(1,0)=2/5=0.4><br>
+IG(sunny, Temperature) = 0.971–0.4 = 0.571<br>
+IG(sunny, Humidity) = 0.971<br>
+IG(sunny, Windy) = 0.020<br>
+Here IG(sunny, Humidity) is the largest value. So Humidity is the node that comes under sunny.
+
+<img src="images/pic14.png">
+ 
+ For humidity from the above table, we can say that play will occur if humidity is normal and will not occur if it is high. Finally, our decision tree will look as below:
+ 
+ <img src="images/pic15.png">
+ 
+
 
 
 
