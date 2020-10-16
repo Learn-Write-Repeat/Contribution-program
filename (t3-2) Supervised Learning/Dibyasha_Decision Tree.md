@@ -53,8 +53,8 @@ The primary challenge in the Decision Tree implementation is to identify the att
 <br>A is attribute, an attribute can have V distinct values.
 
 **3)Gini Index**: Another attribute selection measure that CART (Categorical and Regression Trees) uses is the Gini index. It uses the Gini method to create split points.
-
 Gini index can be represented with the following diagram:-
+
 <img src="images/pic5.png">
 
 
