@@ -29,7 +29,7 @@ Dense layer performs linear operation on input as follows:
 
 *Refer the .ipynb file to understand operation of Dense Layer.*
 
-
+&nbsp;
 ## Dropout Layer
 <img src="https://jamesmccaffrey.files.wordpress.com/2018/05/neuralnetworkdropoutlayer.jpg"></img>
 
@@ -50,7 +50,7 @@ Training Phase: For each hidden layer, for each training sample, for each iterat
 Testing Phase: Use all activations, but reduce them by a factor p to account for the missing activations during training.
 
 
-
+&nbsp;
 ## Convolution Layer
 Convolution layer is building block of CNN(convolution neural network) and is mostly used while working with 2D image data. It is used to extract features from images.
 Convolution layer performs a linear operation 'convolution' on input data. This layer applies a filter/kernel on input data to produce feature map. 
@@ -68,7 +68,7 @@ Here, the input is 5 x 5(N x N) size and filter is 3 x 3(F x F) size so feature 
 
 (5 x 5) * (3 x 3) = (5-3+1) x (5-3+1) = (3 x 3)
 
-
+&nbsp;
 ## Embedding Layer
 Embedding layer is a layer which tranforms positive integers(indexes) into dense vectors of fixed size. Embedding layer is used in neural networks which involves large input
 textual data.
@@ -80,7 +80,7 @@ hence this approach is inefficient. So, embedding layer is used where *high dime
 
 *Refer the .ipynb file to understand working of Embedding Layer.*
  
-
+&nbsp;
 ## LSTM Layer
 LSTM stands for *Long Short Term Memory*. LSTM networks are kind of recurrent neural networks. Recurrent neural network can remember the characteristcs of its recent previous
 inputs and outputs but does not have the capability to remember the past inputs and outputs for too long. In some cases, it may not be sufficient for the network to rely on
@@ -97,8 +97,7 @@ LSTM cells have an internal state variable s<sub>t</sub>. The variable s<sub>t-1
 operation helps to reduce the risk of vanishing gradients. However, this recurrence loop is controlled by a forget gate which works similarly to the input gate, but instead
 helps the network to learn which state variables should be remembered or forgotten.
 
-
-
+&nbsp;
 ## Sequential Block
 A neural network block is described as a single layer, a component which consists of multiple layers, or the entire model itself.
 Thus, a sequential block is a block which allows to build models that holds linear stack of layers in the order in which they should be executed. Sequential allows to build
@@ -111,11 +110,15 @@ In the above figure, multiple layers are combined into blocks, forming repeating
 
 *Refer the .ipynb file to understand working of Sequential Block.*
 
-
+&nbsp;
 ## Custom Block
 A custom block is simply a block which allows us to build or code our own custom models and blocks. In order to create custom block or model, block class must be extended and
 its methods `init` and `forward` should be overriden to define parameters of model and forward function, respectively.
 
 *Refer the .ipynb file to understand how to implement our own Custom Block.*
 
+&nbsp;
+&nbsp;
 ### Contribution By- Rutuja Dharankar
+
+
