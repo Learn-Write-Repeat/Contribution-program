@@ -38,6 +38,8 @@ The tree is built through a process called binary recursive partitioning which i
 **4)Branch / Sub-Tree:** A sub section of entire tree is called branch or sub-tree.<br>
 **5)Parent and Child Node:** A node, which is divided into sub-nodes is called parent node of sub-nodes where as sub-nodes are the child of parent node.
 
+<img src="images/pic1.png">
+
 
 ## Attribute Selection Measures:
 **1)Entropy**: This tells how messy is our data. It controls how a decision tree decides to split the data. Its value ranges from 0 to 1. The entropy is 0 if all samples of a node belong to the same class (not good for training dataset), and the entropy is maximal if we have a uniform class distribution (good for training dataset). 
