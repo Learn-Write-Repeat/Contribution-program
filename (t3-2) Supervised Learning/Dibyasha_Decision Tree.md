@@ -31,16 +31,13 @@ The tree is built through a process called binary recursive partitioning which i
 
 <img src="images/pic4.png">
 
-## Creation of Decision Tree:
-The basic algorithm used in decision trees is known as the ID3 algorithm which uses a top-down, greedy approach.
-<br>**Steps of the Algorithms**:
-<br>1)Select the best attribute → A 
-<br>2)Assign A as the decision attribute (test case) for the NODE. 
-<br>3)For each value of A, create a new descendant of the NODE.
-<br>4)Sort the training examples to the appropriate descendant node leaf. 
-<br>5)If examples are perfectly classified, then STOP else iterate over the new leaf nodes.
+## Terminology related to Decision Tree:
+**1)Root Node:** It represents entire population and further gets divided into two or more homogeneous sets.<br>
+**2)Decision Node:** When a sub-node splits into further sub-nodes, then it is called decision node.<br>
+**3)Leaf/ Terminal Node:** Nodes do not split is called Leaf or Terminal node.<br>
+**4)Branch / Sub-Tree:** A sub section of entire tree is called branch or sub-tree.<br>
+**5)Parent and Child Node:** A node, which is divided into sub-nodes is called parent node of sub-nodes where as sub-nodes are the child of parent node.
 
-The next thing that comes to mind is how to choose the best attribute.
 
 ## Attribute Selection Measures:
 **1)Entropy**: This tells how messy is our data. It controls how a decision tree decides to split the data. Its value ranges from 0 to 1. The entropy is 0 if all samples of a node belong to the same class (not good for training dataset), and the entropy is maximal if we have a uniform class distribution (good for training dataset). 
