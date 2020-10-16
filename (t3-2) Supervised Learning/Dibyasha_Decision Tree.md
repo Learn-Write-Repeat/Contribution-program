@@ -118,19 +118,30 @@ Here IG(sunny, Humidity) is the largest value. So Humidity is the node that come
  
  <img src="images/pic15.png">
  
+## Classification using CART Algorithm:
+This algorithm makes use of Gini Index as the metric.<br>
+**Step1: Calculate the Gini index of the class variable**<br>
+Gini(S) = 1 - [(9/14)² + (5/14)²] = 0.4591<br>
 
+**Step2:Calculate the Gini gain**
 
+<img src="images/pic16.png">
 
+Gini(S, outlook) = (5/14)gini(3,2) + (4/14)*gini(4,0)+ (5/14)*gini(2,3) = (5/14)(1 - (3/5)² - (2/5)²) + (4/14)*0 + (5/14)(1 - (2/5)² - (3/5)²)= 0.171+0+0.171 = 0.342<br>
+Gini gain (S, outlook) = 0.459 - 0.342 = 0.117<br>
+Gini gain(S, Temperature) = 0.459 - 0.4405 = 0.0185<br>
+Gini gain(S, Humidity) = 0.459 - 0.3674 = 0.0916<br>
+Gini gain(S, windy) = 0.459 - 0.4286 = 0.0304<br>
+Gini gain is higher for outlook. So we can choose it as our root node.<br>
+Now we have got an idea of how to proceed further. Repeat the same steps we used in the ID3 algorithm.
 
+## Overfitting in Decision Tree:
+Overfitting is a practical problem while building a Decision-Tree model. The problem of overfitting is considered when the algorithm continues to go deeper and deeper to reduce the training-set error but results with an increased test-set error. So, accuracy of prediction for our model goes down. It generally happens when we build many branches due to outliers and irregularities in data.<br>
 
+Two approaches which can be used to avoid overfitting are as follows:-<br>
+**1)Pre-Pruning**: In pre-pruning, we stop the tree construction a bit early. We prefer not to split a node if its goodness measure is below a threshold value. But it is difficult to choose an appropriate stopping point.
 
-
-
-
-
-
-
-
+**2)Post-Pruning**: In post-pruning, we go deeper and deeper in the tree to build a complete tree. If the tree shows the overfitting problem then pruning is done as a post-pruning step. We use the cross-validation data to check the effect of our pruning. Using cross-validation data, we test whether expanding a node will result in improve or not. If it shows an improvement, then we can continue by expanding that node. But if it shows a reduction in accuracy then it should not be expanded. So, the node should be converted to a leaf node.
 
 ## Pros of Decision Tree:
 <br>1)Decision trees are easy to visualize and interpret.
