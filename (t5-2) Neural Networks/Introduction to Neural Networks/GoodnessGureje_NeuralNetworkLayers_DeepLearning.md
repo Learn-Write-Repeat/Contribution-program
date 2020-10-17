@@ -35,7 +35,7 @@ This is the layer that gives the final result or classification after the neural
 You can check the diagram below for a little demonstration, and better grasp of the subject matter.
 
 <p align="center">
-  ![Neural Network Layers](Image/ANN-1.jpg)
+  <img src = "Image/ANN-1.jpg" />
 </p>
 
 Hope you have had an awesome read! In the next section, we would discuss the general techniques to choose the number of hidden neurons in a model. 
