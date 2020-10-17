@@ -1,6 +1,6 @@
 # **DEEP LEARNING COMPUTATIONS** 
 
-![](RackMultipart20201017-4-c6wmm7_html_510663d03c05e1a4.jpg)
+![](https://github.com/rojatv5/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/RojaTV_DL_DLComputations/images/1.jpg)
 
 At a very basic level, **deep learning** is a machine learning technique. It teaches a computer to filter inputs through layers to learn how to predict and classify information. Observations can be in the form of images, text, or sound.
 
@@ -12,7 +12,7 @@ There are two different approaches to get a program to do what you want. First, 
 
 # **Layers in a Neural Network**
 
-![](RackMultipart20201017-4-c6wmm7_html_7265ec90b3156510.gif)
+![](https://github.com/rojatv5/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/RojaTV_DL_DLComputations/images/2.gif)
 
 This neural network is formed in three layers, called the input layer, hidden layer, and output layer. Each layer consists of one or more nodes, represented in this diagram by the small circles. The lines between the nodes indicate the flow of information from one node to the next. In this neural network, the information flows only from the input to the output (that is, from left-to-right). Other types of neural networks have more intricate connections, such as feedback paths.
 
@@ -24,7 +24,7 @@ The sequential API develop the model layer-by-layer like a linear stack of layer
 
 The functional API is an alternative way to build a neural network. It provides more flexibility to develop a very complex network with multiple inputs or outputs as well as a model that can share layers.
 
-![](RackMultipart20201017-4-c6wmm7_html_ea886113026ca43c.gif)
+![](https://github.com/rojatv5/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/RojaTV_DL_DLComputations/images/3.gif)
 
 **Defining a Sequential model with three layers**
 ```
@@ -69,7 +69,7 @@ model.add(tf.keras.layers.Dense(32))
 model.output\_shape
 ```
 
-![](RackMultipart20201017-4-c6wmm7_html_50f7bf2c0b48750d.jpg)
+![](https://github.com/rojatv5/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/RojaTV_DL_DLComputations/images/4.jpg)
 
 1. **DROPOUT LAYER**
 
@@ -77,7 +77,7 @@ Simply put, dropout refers to ignoring units (i.e. neurons) during the training 
 
 A fully connected layer occupies most of the parameters, and hence, neurons develop co-dependency amongst each other during training which curbs the individual power of each neuron leading to over-fitting of training data. Hence dropout layers are used to prevent overfitting of the data.
 
-![](RackMultipart20201017-4-c6wmm7_html_729d1802668435e4.png)
+![](https://github.com/rojatv5/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/RojaTV_DL_DLComputations/images/5.png)
 
 # dropout in the input layer with weight constraint example
 
@@ -130,7 +130,7 @@ The innovation of convolutional neural networks is the ability to automatically 
 (4, 26, 26, 26, 2)
 ```
 
-![](RackMultipart20201017-4-c6wmm7_html_95c0e3718e1e19ae.png)
+![](https://github.com/rojatv5/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/RojaTV_DL_DLComputations/images/6.png)
 
 1. **POOLING LAYER**
 
@@ -144,7 +144,7 @@ The pooling operation involves sliding a two-dimensional filter over each channe
 
 Max pooling is a pooling operation that selects the maximum element from the region of the feature map covered by the filter. Thus, the output after max-pooling layer would be a feature map containing the most prominent features of the previous feature map.
 
-![](RackMultipart20201017-4-c6wmm7_html_965e3afb2f879fdf.png)
+![](https://github.com/rojatv5/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/RojaTV_DL_DLComputations/images/7.png)
 
 **Performing Max pooling using Keras**
 ```
@@ -195,7 +195,7 @@ print(output)
 
 Average pooling computes the average of the elements present in the region of feature map covered by the filter. Thus, while max pooling gives the most prominent feature in a particular patch of the feature map, average pooling gives the average of features present in a patch.
 
-![](RackMultipart20201017-4-c6wmm7_html_8fc2198ab275edd7.png)
+![](https://github.com/rojatv5/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/RojaTV_DL_DLComputations/images/8.png)
 
 **Performing Average pooling using Keras**
 ```
@@ -325,7 +325,7 @@ It must specify 3 arguments:
 
 **input\_length:** This is the length of input sequences, as you would define for any input layer of a Keras model. For example, if all your input documents are comprised of 1000 words, this would be 1000.
 
-![](RackMultipart20201017-4-c6wmm7_html_7375f21ae4728bca.png)
+![](https://github.com/rojatv5/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/RojaTV_DL_DLComputations/images/9.png)
 
 1. **LSTM LAYER (Long Short Term Memory)**
 
@@ -354,7 +354,7 @@ model.add(TimeDistributed(Dense(vocabulary)))
 model.add(Activation(&#39;softmax&#39;))
 ```
 
-![](RackMultipart20201017-4-c6wmm7_html_eccbdba97ef0bc44.jpg)
+![](https://github.com/rojatv5/Contribution-program/blob/master/(t2)%20Deep%20Learning%20Computations/RojaTV_DL_DLComputations/images/10.jpg)
 
 1. **CUSTOM LAYER**
 
