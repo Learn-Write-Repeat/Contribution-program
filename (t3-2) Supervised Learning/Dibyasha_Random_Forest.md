@@ -42,7 +42,9 @@ Random Forest models use bagging algorithms to build little decision trees, each
 Each tree in a Random Forest model only contain a subset of data, each tree also only uses a subset of features (i.e. columns) from the data.<br>
 **Example**: We are trying to classify a book as sold or unsold based on author, publication date, number of pages, and language. And we have 10,000 books in our dataset. In a Random Forest model, not only would each of our decision trees only use a random sample of the 10,000 books, each decision tree would also only use a random sample of the features: perhaps one decision tree would use author and publication date, while another decision tree would use author and number of pages. And yet another decision tree could use language and publication date. The point of this is that when we average the predictions of all of these decision trees (i.e. “weak learners) together, we get a super robust prediction.<br>
 
-## Underfitting and Overfitting
+<img src="images/pic21.jpeg">
+
+### Underfitting and Overfitting
 An ideal model should be with low bias and low variance. A single decision tree results maybe with low bias and high variance.<br>
 
 *If the model is with high bias, it leads to the underfitting*.<br>
@@ -52,7 +54,7 @@ An ideal model should be with low bias and low variance. A single decision tree 
 
 **Overfitting** occurs when the model fits the training data too well. Overfitting happens in classes when the students study the syllabus very well and writing in exam what they read in the given syllabus to the questions comes from outside the syllabus too.
 
-<img src="images/pic21.jpeg">
+
 
 ## Random Forest algorithm intuition<br>
 Random forest algorithm intuition can be divided into two stages.<br>
