@@ -38,6 +38,8 @@ You can check the diagram below for a little demonstration, and better grasp of 
   <img src = "Image/ANN-1.jpg" />
 </p>
 
-Hope you have had an awesome read! In the next section, we would discuss the general techniques to choose the number of hidden neurons in a model. 
+Hope you have had an awesome read! 
+
+In the next section, we would discuss the general techniques to choose the number of hidden neurons in a model. 
 
 Catch you there!
