@@ -17,3 +17,57 @@ A Naive Bayes classifier is a probabilistic machine learning model that’s used
 
 Using Bayes theorem, we can find the probability of A happening, given that B has occurred. Here, B is the evidence and A is the hypothesis. The assumption 
 made here is that the predictors/features are independent. That is presence of one particular feature does not affect the other. Hence it is called naive.
+
+### Explanation:<br>
+Suppose we are making a machine and have given the task to classify an object in between bat, ball and a cat. At first we will create a machine that will identify the characters of the object and then map it with the classification objects such that if an object is a circle then it will be a ball or if the object is living-being then it will be a cat or in our case, if our object is red then it is most probable that it will be a ball.
+
+<img src="images/pic24.jpeg">
+
+### Formula:<br>
+Here c represents the class eg. ball, cat, bat.<br>
+x represents features calculated individually.
+
+<img src="images/pic23.jpg">
+
+Where,
+P(c|x) is the posterior probability of class c given predictor ( features).<br>
+P(c) is the probability of class.<br>
+P(x|c) is the likelihood which is the probability of predictor given class.<br>
+P(x) is the prior probability of predictor.<br>
+
+##Example:<br>
+We have data on 1000 pieces of fruit. The fruit being a Banana, Orange or some other fruit and imagine we know 3 features of each fruit, whether it’s long or not, sweet or not and yellow or not, as displayed in the table below.
+
+<img src="images/pic25.png">
+
+From the table we got to know that<br>
+50% of the fruits are bananas<br>
+30% are oranges<br>
+20% are other fruits<br>
+
+Based on our training set we can also say the following:<br>
+From 500 bananas 400 (0.8) are Long, 350 (0.7) are Sweet and 450 (0.9) are Yellow<br>
+Out of 300 oranges, 0 are Long, 150 (0.5) are Sweet and 300 (1) are Yellow<br>
+From the remaining 200 fruits, 100 (0.5) are Long, 150 (0.75) are Sweet and 50 (0.25) are Yellow<br>
+
+Now we need to to predict the class of another fruit. We are given that the additional fruit is Long, Sweet and Yellow, we can classify it using the following formula and subbing in the values for each outcome, whether it’s a Banana, an Orange or Other Fruit. The one with the highest probability (score) being the winner.<br>
+
+<img src="images/pic26.png">
+<img src="images/pic27.png">
+<img src="images/pic28.png">
+<img src="images/pic29.png">
+<img src="images/pic30.png">
+<img src="images/pic31.png">
+<img src="images/pic32.png">
+
+In this case, based on the higher score ( 0.252 for banana ) we can assume this Long, Sweet and Yellow fruit is in fact, a Banana.
+
+
+
+
+
+
+
+
+
+
