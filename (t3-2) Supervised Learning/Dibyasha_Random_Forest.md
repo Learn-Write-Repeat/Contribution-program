@@ -44,13 +44,15 @@ Each tree in a Random Forest model only contain a subset of data, each tree also
 
 ## Underfitting and Overfitting
 An ideal model should be with low bias and low variance. A single decision tree results maybe with low bias and high variance.<br>
+
 *If the model is with high bias, it leads to the underfitting*.<br>
 *If it is with high variance, it leads to overfitting.*<br>
+
 **Underfitting** occurs when the model cannot capture data trends. Underfitting happens in classes when the students not covering the given syllabus and perform poorly to the questions come from inside the syllabus as well as outside the syllabus in the exam.<br>
 
 **Overfitting** occurs when the model fits the training data too well. Overfitting happens in classes when the students study the syllabus very well and writing in exam what they read in the given syllabus to the questions comes from outside the syllabus too.
 
-<img src="images/pic21.jpg">
+<img src="images/pic21.jpeg">
 
 ## Random Forest algorithm intuition<br>
 Random forest algorithm intuition can be divided into two stages.<br>
