@@ -35,7 +35,8 @@ This is the layer that gives the final result or classification after the neural
 You can check the diagram below for a little demonstration, and better grasp of the subject matter.
 
 <p align="center">
-  <img src = "Image/ANN-1.jpg" />
+  <img src = "Image/ANN-1.jpg" /> <br>
+  <img src = "Image/ANN.webp" />
 </p>
 
 Hope you have had an awesome read! 
