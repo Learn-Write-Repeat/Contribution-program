@@ -82,7 +82,7 @@ and hence this approach is inefficient. So, embedding layer is used where *high-
  
 &nbsp;
 ## LSTM Layer
-LSTM stands for *Long Short Term Memory*. LSTM networks is a kind of recurrent neural network. Recurrent neural networks can remember the characteristics of its recent previous
+LSTM stands for *Long Short Term Memory*. LSTM network is a kind of recurrent neural network. Recurrent neural networks can remember the characteristics of its recent previous
 inputs and outputs but does not have the capability to remember the past inputs and outputs for too long. In some cases, it may not be sufficient for the network to rely on
 recent or immediate previous inputs and outputs for predictions. This is known as Long term dependency. LSTM deals with this long term dependency problem of RNNs.
 
