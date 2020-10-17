@@ -82,6 +82,7 @@ In the second stage, we make predictions using the trained random forest algorit
 1)The biggest disadvantage of random forests is its computational complexity. Random forests is very slow in making predictions because large number of decision-trees are used to make predictions. All the trees in the forest have to make a prediction for the same input and then perform voting on it. So, it is a time-consuming process.<br>
 2)The model is difficult to interpret as compared to a decision-tree, where we can easily make a prediction as compared to a decision-tree.<br>
 
+
 Thanks for reading :heart:
 <br> Contributed by **Dibyasha Panda**
 
