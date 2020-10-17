@@ -35,7 +35,7 @@ P(c) is the probability of class.<br>
 P(x|c) is the likelihood which is the probability of predictor given class.<br>
 P(x) is the prior probability of predictor.<br>
 
-##Example:<br>
+## Example:<br>
 We have data on 1000 pieces of fruit. The fruit being a Banana, Orange or some other fruit and imagine we know 3 features of each fruit, whether it’s long or not, sweet or not and yellow or not, as displayed in the table below.
 
 <img src="images/pic25.png">
@@ -52,15 +52,48 @@ From the remaining 200 fruits, 100 (0.5) are Long, 150 (0.75) are Sweet and 50 (
 
 Now we need to to predict the class of another fruit. We are given that the additional fruit is Long, Sweet and Yellow, we can classify it using the following formula and subbing in the values for each outcome, whether it’s a Banana, an Orange or Other Fruit. The one with the highest probability (score) being the winner.<br>
 
+**Banana**:
 <img src="images/pic26.png">
 <img src="images/pic27.png">
 <img src="images/pic28.png">
+
+**Orange**:
 <img src="images/pic29.png">
+
+**Other Fruit**:
 <img src="images/pic30.png">
 <img src="images/pic31.png">
 <img src="images/pic32.png">
 
 In this case, based on the higher score ( 0.252 for banana ) we can assume this Long, Sweet and Yellow fruit is in fact, a Banana.
+
+## Applications:<br>
+**1)Real time Prediction**: Naive Bayes is an eager learning classifier and it is sure fast. Thus, it could be used for making predictions in real time.<br>
+**2)Multi class Prediction**: This algorithm is also well known for multi class prediction feature. Here we can predict the probability of multiple classes of target variable. <br>
+**3)Text classification/ Spam Filtering/ Sentiment Analysis**: Naive Bayes classifiers mostly used in text classification. It is widely used in Spam filtering (identify 
+spam e-mail) and Sentiment Analysis (in social media analysis, to identify positive and negative customer sentiments)<br>
+**4)Recommendation System**: Naive Bayes Classifier and Collaborative Filtering together builds a Recommendation System that uses machine learning and data mining techniques to filter unseen information and predict whether a user would like a given resource or not.
+
+## Adavantages:<br>
+1)It is easy and fast to predict the class of the test data set. It also performs well in multi-class prediction.<br>
+2)When assumption of independence holds, a Naive Bayes classifier performs better compare to other models like logistic regression and you need less training data.<br>
+3)It perform well in case of categorical input variables compared to numerical variable(s).<br>
+
+## Disadvantages:<br>
+1)If categorical variable has a category (in test data set), which was not observed in training data set, then model will assign a 0 (zero) probability and will be unable to make a prediction. This is often known as “Zero Frequency”. To solve this, we can use the smoothing technique. One of the simplest smoothing techniques is called Laplace estimation.<br>
+2)Naive Bayes is also known as a bad estimator, so the probability outputs from predict_proba are not to be taken too seriously.<br>
+3)Naive Bayes is the assumption of independent predictors. In real life, it is almost impossible that we get a set of predictors which are completely independent.<br>
+
+Thanks for reading :heart:
+<br> Contributed by **Dibyasha Panda**
+
+<br>Reach me out at:
+<br><a href="https://linkedin.com/"><img src = "https://github.com/DibyashaPanda/dibyasha-panda/blob/master/images/linkedin.png" width = "48" height = "48"></a>
+<a href="https://gmail.com/"><img src = "https://github.com/DibyashaPanda/dibyasha-panda/blob/master/images/gmail.jpg" width = "48" height = "48"></a>
+
+
+ 
+
 
 
 
