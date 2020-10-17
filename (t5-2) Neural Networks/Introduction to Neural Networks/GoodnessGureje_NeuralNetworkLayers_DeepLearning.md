@@ -22,7 +22,7 @@ This is the next set of layer(s) in the network. I used layers because typically
 
 A typical neural network for solving a linear problem would have only one hidden layer; while a neural network for a non-linear problem would have more than one hidden layer. When more than one, the layers are usually connected together before the output layer.
 
-The number of neurons in any of the hidden layer(s) is usually determined by the programmer by either a rough estimate or applying a flexible formula as discussed in the next section. 
+The number of neurons in any of the hidden layer(s) is usually determined by the programmer either by a rough estimate or applying a flexible formula as discussed in the next subtopic. 
 
 The third category is the output layer.
 
@@ -35,8 +35,7 @@ This is the layer that gives the final result or classification after the neural
 You can check the diagram below for a little demonstration, and better grasp of the subject matter.
 
 <p align="center">
-  <img src = "Image/ANN-1.jpg" /> <br>
-  <img src = "Image/ANN.webp" />
+  <img src = "Image/ANN-1.jpg" />
 </p>
 
 Hope you have had an awesome read! 
