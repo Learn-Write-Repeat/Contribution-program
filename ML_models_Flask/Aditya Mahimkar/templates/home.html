@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>Loan Eligibility</title>
+</head>
+<body>
+    <div class="head_section">
+        <h2>ABC Banking Solutions</h2>
+        <hr>
+        <p>Loan Eligibility System</p>
+    </div>
+    <form action="/predict", method="POST">
+        <div class="flex_container">
+            <div class="left">
+                <p class="name">
+                    Applicant's Name *:
+                    <input type="text" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                </p>
+                <p class="gender">
+                    Gender *: 
+                    <input type="radio" value="0" name="gender" required>
+                    <label for="Male">Male</label>
+                    <input type="radio" value="1" name="gender">
+                    <label for="Female">Female</label>
+                </p> 
+                <p class="married">
+                    Married *: 
+                    <input type="radio" value="1" name="married" required>
+                    <label for="yes">Yes</label>
+                    <input type="radio" value="0" name="married">
+                    <label for="no">No</label>
+                </p>
+                <p class="dependants">
+                    Dependants *:
+                    <select name="dependants" required>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3+</option>
+                    </select>
+                </p>
+                <p class="education">
+                    Education *:
+                    <select name="education" required>
+                        <option value="1">Graduate</option>
+                        <option value="0">Non-Graduate</option>
+                    </select>
+                </p>
+                <p class="selfemployed">
+                    Self-Employed *: 
+                    <input type="radio" value="1" name="self" required>
+                    <label for="yes">Yes</label>
+                    <input type="radio" value="0" name="self">
+                    <label for="no">No</label>
+                </p>
+            </div>
+            <div class="right">
+                <p class="appincome">
+                    Applicant's Income *:
+                    <input type="number" name="app_income" required>
+                </p>
+                <p class="coappincome">
+                    Co-applicant's Income *:
+                    <input type="number" name="coapp_income" required>
+                </p>
+                <p class="loanamt">
+                    Loan Amount *:
+                    <input type="number" name="loan_amt" required>
+                </p>
+                <p class="loanterm">
+                    Loan Term (in months) *:
+                    <select name="loan_term" required>
+                        <option value="12">12</option>
+                        <option value="36">36</option>
+                        <option value="60">60</option>
+                        <option value="84">84</option>
+                        <option value="120">120</option>
+                        <option value="180">180</option>
+                        <option value="240">240</option>
+                        <option value="300">300</option>
+                        <option value="360">360</option>
+                        <option value="480">480</option>
+                    </select>
+                </p>
+                <p class="credit">
+                    Credit History *: 
+                    <input type="radio" value="1" name="credit" required>
+                    <label for="yes">Yes</label>
+                    <input type="radio" value="0" name="credit">
+                    <label for="no">No</label>
+                </p>
+                <p class="location">
+                    Address Location *:
+                    <select name="location" required>
+                        <option value="0">Urban</option>
+                        <option value="1">Rural</option>
+                        <option value="2">Semi-urban</option>
+                    </select>
+                </p>
+            </div>
+        </div>
+        <input type="submit" class="button" value="Check Eligibility">
+    </form>
+    <h3 class="output">{{ output }}</h3>
+</body>
+</html>
