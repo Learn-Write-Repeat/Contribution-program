@@ -8,9 +8,9 @@ A typical neural network consists of many layers, which can be grouped in to thr
 
 **1. Input Layer** 
 
-This is the layer that feeds in the training data into the Neural Network. It is the first layer in the neural network and the number of neurons in this layer depends on the size of the training set. 
+This is the layer that feeds in the training data into the Neural Network. It is the first layer in the neural network and the number of nodes in this layer depends on the size of the training set. 
 
-For example, if the training set has 5000 training examples and 25 features, the input layer would have 25 neurons. 
+For example, if the training set has 5000 training examples and 25 features, the input layer would have 25 nodes. 
 
 The training set, after being fed into the input layer of the network is then processed, the weights and biases determined and then passed into the hidden layer(s) before it gets to the output layer.
 
@@ -22,13 +22,13 @@ This is the next set of layer(s) in the network. I used layers because typically
 
 A typical neural network for solving a linear problem would have only one hidden layer; while a neural network for a non-linear problem would have more than one hidden layer. When more than one, the layers are usually connected together before the output layer.
 
-The number of neurons in any of the hidden layer(s) is usually determined by the programmer either by a rough estimate or applying a flexible formula as discussed in the next subtopic. 
+The number of the hidden layers/neurons is usually determined by the programmer either by a rough estimate or applying a flexible formula as discussed in the next subtopic. 
 
 The third category is the output layer.
 
 **3. Output Layer**
 
-A neural network typically has one output layer. But this could contain one node/neuron (for binary classification) or multiples nodes (for SoftMax regression), depending on the type of function involved. 
+A neural network typically has one output layer. But this could contain one node (for binary classification) or multiples nodes (for SoftMax regression), depending on the type of function involved. 
 
 This is the layer that gives the final result or classification after the neural network has learned the parameters and minimized the cost function. 
 
