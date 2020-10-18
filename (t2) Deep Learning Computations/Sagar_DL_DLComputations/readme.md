@@ -10,6 +10,7 @@ Deferred initialization can be convenient, allowing the framework to infer param
  
  The Glorot uniform initializer, also called Xavier uniform initializer.
  It draws samples from a uniform distribution within [-limit, limit] where limit is sqrt(6 / (fan_in + fan_out)) where fan_in is the number of input units in the weight tensor     and fan_out is the number of output units in the weight tensor.
+ 
  **SoftMax:**
  
  The softmax function, also known as softargmax[1]:184 or normalized exponential function,[2]:198 is a generalization of the logistic function to multiple dimensions. It is used in multinomial logistic regression and is often used as the last activation function of a neural network to normalize the output of a network to a probability distribution over predicted output classes.
@@ -34,4 +35,7 @@ OUTPUT LAYER:
 
 ![Test Image 1](layer.jpg)
 
-
+## References
+https://en.wikipedia.org/wiki/Softmax_function
+https://d2l.ai/chapter_deep-learning-computation/deferred-init.html
+https://www.tensorflow.org/api_docs/python/tf/compat/v1/keras/initializers/glorot_uniform
