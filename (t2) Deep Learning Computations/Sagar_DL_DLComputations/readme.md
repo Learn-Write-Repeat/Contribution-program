@@ -1,3 +1,30 @@
+## DEFERED INITIALIZATION
+
+ when working with convolutional neural networks, this technique will become even more convenient since the input dimensionality (i.e., the resolution of an image) will affect the dimensionality of each subsequent layer. Hence, the ability to set parameters without the need to know, at the time of writing the code, what the dimensionality is can greatly simplify the task of specifying and subsequently modifying our models.
+
+Deferred initialization can be convenient, allowing the framework to infer parameter shapes automatically, making it easy to modify architectures and eliminating one common source of errors.We can pass data through the model to make the framework finally initialize parameters.
+ ### Why it is essential
+ The aim of weight initialization is to prevent layer activation outputs from exploding or vanishing during the course of a forward pass through a deep neural network.
+ ### Algorithms
+ **Glorot_uniform**
+ The Glorot uniform initializer, also called Xavier uniform initializer.
+ 
+ tf.compat.v1.keras.initializers.glorot_uniform(
+    seed=None, dtype=tf.dtypes.float32
+)
+It draws samples from a uniform distribution within [-limit, limit] where limit is sqrt(6 / (fan_in + fan_out)) where fan_in is the number of input units in the weight tensor and fan_out is the number of output units in the weight tensor.
+
+
+## Implementation
+Sample Code for Classification Problems
+
+Dataset Used: MNIST Dataset
+
+Code: deep_learning.ipynb
+
+Performance Metric Used: Classification Accuracy
+## LAYERS IN NEURAL NETWORK
+
 INPUT LAYER:
 	The input layer of a neural network is composed of artificial input neurons, and brings the initial data into the system for further processing by subsequent layers of artificial neurons. The input layer is the very beginning of the workflow for the artificial neural network.
   
