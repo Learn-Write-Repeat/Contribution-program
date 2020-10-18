@@ -1,4 +1,4 @@
-## Introduction to Layers - Part 2
+## Introduction to Layers #2
 
 Hello! Welcome back! In this part, we would be addressing ***general techniques of choosing the number of hidden neurons in a model***.
 
