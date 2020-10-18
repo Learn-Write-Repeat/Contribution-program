@@ -7,5 +7,6 @@ HIDDEN LAYER:
 OUTPUT LAYER:
 	The output layer is responsible for producing the final result. There must always be one output layer in a neural network. The output layer takes in the inputs which are passed in from the layers before it, performs the calculations via its neurons and then the output is computed.
 
+![Test Image 1](layer.jpg)
 
 Completed
