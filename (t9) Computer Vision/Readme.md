@@ -6,3 +6,5 @@
 | **2\. R-CNN** <br>a. Introduction and network design<br>b. Working and loss function<br>c. Implementation and results<br>d. Advantages and Disadvantages      | Anivesh Bhadauriya                             |  |
 | **3\. FAST R-CNN** <br>a. Introduction and network design<br>b. Working and loss function<br>c. Implementation and results<br>d. Advantages and Disadvantages | Royston E Tauro<br>                            |  |
 | **4\. YOLO** <br>a. Introduction and network design<br>b. Working and loss function<br>c. Implementation and results<br>d. Advantages and Disadvantages       | Sneha Bahl                                     |
+
+#### Mentor: Om Rastogi

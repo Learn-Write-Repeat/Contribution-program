@@ -1,0 +1,49 @@
+{% extends "bootstrap/base.html" %}
+{% block content %}
+<link rel="stylesheet" href="{{url_for('.static', filename='css/styles.css')}}">
+
+<div class="container">
+    <div class="jumbotron" style="background-image: linear-gradient(to right, #7b4397, #dc2430) !important;">
+        <h2 style="color:#fff; text-align: center;">Gender Classifier</h2>
+        <p style="color:#fff; text-align: center;">Classify Gender Using Machine Learning</p>
+    </div>
+</div>
+
+<div class="card text-center">
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-heading" style="background-image: linear-gradient(to right, #7b4397, #dc2430); text-align: center; color: #fff">Results</div>
+            <div class="card-body" style="background-image: linear-gradient(to right, #7b4397, #dc2430);">
+                <p class="card-text">
+                    <div class="alert alert-danger" role="alert">
+                        {{ name }}
+                    </div>
+                </p>
+                
+                <!-- Main ML Prediction Display Here -->
+                {% if prediction ==  0 %}
+                <p class="card-text">
+                    <div class="alert alert-danger" role="alert">
+                        Female
+                    </div>
+                </p>
+                {% elif prediction == 1 %}
+                <p class="card-text">
+                    <div class="alert alert-danger" role="alert">
+                        Male
+                    </div>
+                </p>
+                {% endif%}
+            </div>
+
+            <!-- Main ML Prediction Display Ends Here -->
+            <div class="card-footer text-muted"></div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block styles %}
+{{super()}}
+{% endblock %}
