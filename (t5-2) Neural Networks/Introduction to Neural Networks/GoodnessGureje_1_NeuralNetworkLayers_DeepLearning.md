@@ -1,4 +1,4 @@
-## Introduction to Layers
+## Introduction to Layers #1
 
 Hello there. Glad to have you here! I am Goodness Gureje and I want to intimate you with some very helpful details about neural network. Let's ride!
 
