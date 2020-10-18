@@ -6,10 +6,12 @@ Deferred initialization can be convenient, allowing the framework to infer param
  ### Why it is essential
  The aim of weight initialization is to prevent layer activation outputs from exploding or vanishing during the course of a forward pass through a deep neural network.
  ### Algorithms
- **Glorot_uniform**
+ **Glorot_uniform:**
+ 
  The Glorot uniform initializer, also called Xavier uniform initializer.
  It draws samples from a uniform distribution within [-limit, limit] where limit is sqrt(6 / (fan_in + fan_out)) where fan_in is the number of input units in the weight tensor     and fan_out is the number of output units in the weight tensor.
- **SoftMax**
+ **SoftMax:**
+ 
  The softmax function, also known as softargmax[1]:184 or normalized exponential function,[2]:198 is a generalization of the logistic function to multiple dimensions. It is used in multinomial logistic regression and is often used as the last activation function of a neural network to normalize the output of a network to a probability distribution over predicted output classes.
 
 
