@@ -9,3 +9,5 @@
 |3.| How Deep Learning works||
 |4.| Difference between Deep Learning and Machine Learning||
 |5.| Deep Learning applications||
+
+#### Mentor:Kumari Neha

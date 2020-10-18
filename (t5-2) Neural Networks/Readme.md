@@ -6,20 +6,3 @@
 | 1.Introduction to Layers<br>a. Describe different layers of the neural network<br>b. General techniques to choose the number of<br>hidden neurons in a model<br>c.Some simple Layers of Keras API and their<br>description<br>2\. Multi-Layer Neural Networks<br>a. How it works<br>b. Shallow neural networs vs deep neural networks<br>c. Advantages of multi-layer neural networks over<br>single layer neural networks<br>d. Example<br>e. Describing the term Hperparameter using the<br>above example | Goodness Guruje |
 
 
-
-<table>
- <tr>
-  <td rowspan="2">&nbsp;</td>
-  <td>&nbsp;</td>
-  <td>&nbsp;</td>
- </tr>
- <tr>
-  <td>&nbsp;</td>
-  <td>&nbsp;</td>
- </tr>
- <tr>
-  <td>&nbsp;</td>
-  <td>&nbsp;</td>
-  <td>&nbsp;</td>
- </tr>
-</table>
