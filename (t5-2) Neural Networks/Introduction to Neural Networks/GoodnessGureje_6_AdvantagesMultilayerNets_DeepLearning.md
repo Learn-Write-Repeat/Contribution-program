@@ -6,6 +6,7 @@ Welcome back. Let's now peep into some ***advantages of multi-layer neural netwo
 
 <p align="center">
   <img src="Image/ANN.webp" />
+  A typical single-layer neural network
 </p>
 <br>
 
@@ -15,6 +16,7 @@ Welcome back. Let's now peep into some ***advantages of multi-layer neural netwo
 
 <p align="center">
   <img src="Image/ANN-1.jpg" />
+  A multi-layer neural network with 2 hidden neurons
 </p>
 <br>
 
