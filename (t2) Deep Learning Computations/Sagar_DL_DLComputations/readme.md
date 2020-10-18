@@ -37,5 +37,7 @@ OUTPUT LAYER:
 
 ## References
 https://en.wikipedia.org/wiki/Softmax_function
+
 https://d2l.ai/chapter_deep-learning-computation/deferred-init.html
+
 https://www.tensorflow.org/api_docs/python/tf/compat/v1/keras/initializers/glorot_uniform
