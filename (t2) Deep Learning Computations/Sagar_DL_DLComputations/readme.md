@@ -13,7 +13,7 @@ Deferred initialization can be convenient, allowing the framework to infer param
  
  **SoftMax:**
  
- The softmax function, also known as softargmax[1]:184 or normalized exponential function,[2]:198 is a generalization of the logistic function to multiple dimensions. It is used in multinomial logistic regression and is often used as the last activation function of a neural network to normalize the output of a network to a probability distribution over predicted output classes.
+ The softmax function, also known as softargmax or normalized exponential function is a generalization of the logistic function to multiple dimensions. It is used in multinomial logistic regression and is often used as the last activation function of a neural network to normalize the output of a network to a probability distribution over predicted output classes.
 
 
 ## Implementation
