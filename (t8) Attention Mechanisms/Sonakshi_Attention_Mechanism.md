@@ -1,4 +1,4 @@
-#What is Attention Mechanism?
+# What is Attention Mechanism?
 
 While reading/listening about a certain topic, it is possible for our brain to recognise one part of the context better than the other. 
 In the same way, an Attention Mechanism model would provide a somewhat higher weight to one part than the other, simply meaning that its attention is 
@@ -17,13 +17,13 @@ We can also describe Attention Mechanism as a method in Deep learning which is u
 used to create a corresponding output for this kind of focused input data. 
 
 
-##Why Attention Mechanism?
+## Why Attention Mechanism?
 Why are we using Attention Mechanism in Deep learning or NLP? Simply because when implemented, the result obtained is better. Attention Mechanism models were able
 to give a substantially better result when applied to text translation, image captioning , etc. 
 
 Let us understand the purpose of this model in RNN
 
-###Attention Mechanism in RNN
+### Attention Mechanism in RNN
 Attention Mechanism models are applied to Recurrent Neural Networks, which are used in NLP and Computer Vision.
 
 A neural network model consists of an encoder and a decoder. The encoder maps discrete inputs into a continuous one and the decoder generates an output of 
@@ -39,7 +39,7 @@ sequence one at a time.
  A key benefit of the encoder-decoder models is its ability to train the model directly on the source and also handle inputs and outputs of variable lengths. 
 Encoder-Decoder models are widely used in Neural Machine translation. 
 
-##Neural Machine Translation
+## Neural Machine Translation
 In an NMT system, the meaning of the sentence or text input is mapped to a fixed length vector representation and a translation is generated based on this vector. 
 NMT’s work by encoding a sentence to a vector form by using RNN and then decoding the particular sentence, also using RNN. 
 
