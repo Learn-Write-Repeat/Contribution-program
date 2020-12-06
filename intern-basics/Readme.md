@@ -16,6 +16,8 @@ Part3: Any Project-Numpy&Pandas                - Julian
 
 Part4: Basic functions in OpenCV               - Nirmal
 
+Stock Market Analysis & Prediction             - Shalaka
+
 Grayscaling
 Image Translations
 Rotation
