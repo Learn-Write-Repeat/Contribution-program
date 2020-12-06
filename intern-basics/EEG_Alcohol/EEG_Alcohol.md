@@ -38,11 +38,11 @@ The columns of data are:
 # Working
 **Subject Identifer** is our label of the data, the dataset was divided into 75-25 ratio using train_test split . 
 I used 5 algorithms on my dataset and compared their accuracy:-
-- **Naive Bayes** 55.41%
-- **Support Vector Machine** 49.69%
-- **K-Nearest Neighbors**  66.37%
-- **Decision Tree** 56.58%
-- **Random Forest** 58.11%
+- **Logistic Regression** 55.78%
+- **Naive Bayes** 55.46%
+- **K-Nearest Neighbors**  66.81%
+- **Decision Tree** 59.11%
+- **Random Forest** 58.12%
 
 We further used Confusion Matrix to evaluate performance of our algorithms.
 Since K-Nearest Neighbors has the highest accuracy,we will use K-Nearest Neighbors on our data.
