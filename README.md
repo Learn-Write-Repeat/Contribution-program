@@ -1,7 +1,7 @@
 # Contribution-program
 Repository for competition in open-source contribution under DevIncept.
 
-### Follow these steps to make a contribution:
+### Follow these
 
 1. Fork this repository.
 
